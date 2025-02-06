@@ -3,6 +3,12 @@ Any spaces in your font name should be replaced with a +.
 Fonts are separated by a & */
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
+#content {
+  max-width: 1600px;
+  margin: 0 auto;
+
+}
+
 :root {
   /* change the values below to your colors from your palette */
   --primary-color: #041a47;
@@ -111,6 +117,7 @@ nav a {
   min-width: 120px;
   text-decoration: none;
   padding: 10px;
+  text-align: center;
 }
 nav a:link, nav a:visited {
   color: var(--nav-link-color);
