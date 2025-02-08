@@ -1,11 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
 }
 nav a {
     text-align: center;
-    color: #964734;
+    color: white;
     text-decoration: none;
+    padding: 35px;
 }
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
@@ -16,12 +19,23 @@ nav a {
 main section {
     text-align: center;
 }
+main section img {
+    box-sizing: border-box;
+}
 #background {
     height: 725px;
     background-color: #003135;
+    margin-bottom: 100px;
 }
 body {
     background-color: #afdde5;
+    font-family: "sans-serif", "Roboto";
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    margin: 0;
 }
 header {
     background-color: #003135;
@@ -31,21 +45,28 @@ nav a:hover {
     color: #afdde5;
 }
 .book, .join {
-    background-color: #afdde5;
-    color: black;
+    background-color: #003135;
+    color: white;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover {
     background-color: #003135;
     color: #afdde5;
 }
-}
 .msg {
     background-color: #afdde5;
+    line-height: 1.5em;
+    padding: 35px;
 }
 footer {
     background-color: #0fa4af;
     color: #0fa4af;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer a {
     color: #003135;
@@ -63,16 +84,35 @@ footer p a:hover {
 }
 .home-title {
     color: #003135;
+    font-family: "sans-serif", "Roboto";
+    font-size: 2em;
+    margin-top: 10px;
 }
 h4 {
     color: #003135;
 }
 .msg h2 {
     color: #003135;
+    font-family: "sans-serif", "Roboto";
 }
 .msg p {
     color: #003135;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 .icon {
     width: 80px;
+    padding-top: 10px;
+}
+#logo_link {
+    padding-top: 35px;
+}
+footer .social img {
+    padding-top: 15px;
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px;
+}
+.card-img {
+    border: 10px solid black;
 }
