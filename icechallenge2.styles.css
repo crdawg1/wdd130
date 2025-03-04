@@ -1,0 +1,21 @@
+body {
+    color: rgb(92, 92, 92)
+}
+
+.hero {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    padding: 10%;
+}
+.circle_img {
+    width: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: solid 10px rgb(69, 69, 69);
+}

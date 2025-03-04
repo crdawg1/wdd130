@@ -1,0 +1,9 @@
+body{
+    text-align: center;
+    background-color: lightskyblue;
+    margin-left: 500px;
+    margin-right: 500px;
+}
+#prophet {
+    width: 200px;
+}
